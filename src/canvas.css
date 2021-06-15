@@ -1,0 +1,49 @@
+.canvas{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0px;
+    background-color: transparent;
+}
+
+.text-bari{
+position: absolute;
+top: 20px;
+
+width:400px;
+left: 20%;
+height: 40px;
+border: none;
+border-bottom: 2px solid black;
+color: black;
+background-color: transparent;
+
+z-index: 200;
+}
+
+.text-bari:focus{
+    position: absolute;
+top: 20px;
+
+width:400px;
+left: 20%;
+height: 40px;
+border: none;
+border-bottom: 2px solid black;
+color: black;
+background-color: transparent;
+outline: none;
+z-index: 200;
+   
+}
+
+#typed-text{
+    height: 60px;
+    min-width:400px;
+    background-color: transparent;
+    position: absolute;
+    font-size: 28px;
+    z-index: 199;
+    font-weight: bolder;
+}
